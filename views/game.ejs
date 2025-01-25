@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Know your keyboard</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="first-h2">
+          <h2 class="name-space">NAME:<span id="name"><%= Name %></span></h2>
+          <h2 class="score correct">CORRECT: <span class="number"></span></h2>
+          <h2 class="score wrong">WRONG: <span class="number2"></span></h2>
+        </div>
+        <div class="instruction">
+          <h2 class="second-h2">press any key to start!</h2>
+        </div>
+        <div id="second-container">
+          <div id="col-1" class="col"></div>
+          <div id="col-2" class="col">
+            <h3>START</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="bottom-container">
+        <div class="bottom-col-1 bottom-col">
+          <h4>@JONKON</h4>
+        </div>
+        <div class="bottom-col-2 bottom-col"><h4>@2025</h4></div>
+      </div>
+    </footer>
+    <script src="js/behavior.js"></script>
+  </body>
+</html>
