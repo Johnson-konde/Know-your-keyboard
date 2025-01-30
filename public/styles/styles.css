@@ -129,7 +129,6 @@ footer {
   color: #ff2929;
   font-size: 30px;
 }
-
 @media (max-width: 600px) {
   h3 {
     display: flex;
