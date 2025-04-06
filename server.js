@@ -18,10 +18,11 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.render("home.ejs");
+  res.render("home.ejs", {Year : year});
 });
 
 app.post("/submit", (req, res) => {
+  
   const name = req.body.name;
   res.render("game.ejs", { Name: name, Year: year });
 });
@@ -54,5 +55,5 @@ res.render("game.ejs", {Name: name, Year: year})
 app.listen(port, () => {
     console.log(`Server running on port: ${port}`);
   });
-
+*/
   
